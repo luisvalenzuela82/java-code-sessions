@@ -18,7 +18,7 @@ public class Main {
         miAuto.arrancar(); // Muestra: El auto ha arrancado con Gasolina como combustible.
         miAuto.detener();  // Muestra: El vehículo se ha detenido.
 
-        Motocicleta miMotocicleta = new Motocicleta("Yamaha", "YZF", "Super Deportiva");
+        Motocicleta miMotocicleta = new Motocicleta("Yamaha", "YZF", Motocicleta.TipoMotocicleta.DEPORTIVA);
         miMotocicleta.arrancar(); // Muestra: La motocicleta ha arrancado. ¿Tiene alforjas? true
         miMotocicleta.detener();  // Muestra: El vehículo se ha detenido.
     }

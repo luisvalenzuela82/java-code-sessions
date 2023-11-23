@@ -10,12 +10,14 @@ package org.javacodesessions.programacionorientadaobjetos2.modelo;
  */
 public class Motocicleta extends Vehiculo {
 
-    /*
-    Ciclomotor, Scooter, Triciclo,m Cuatriciclo, Moto Naked, Moto Trail, Deportiva, Turismo
-    */
-    private String tipo;
+    
+    public static enum TipoMotocicleta {
+        CICLOMOTOR, SCOOTER, TRICICLO, CUATRICICLO, MOTO_NAKED, MOTO_TRAIL, DEPORTIVA, TURISMO
+    }
+    
+    private TipoMotocicleta tipo;
 
-    public Motocicleta(String marca, String modelo, String tipo) {
+    public Motocicleta(String marca, String modelo, TipoMotocicleta tipo) {
         super(marca, modelo);
         this.tipo = tipo;
     }
@@ -27,12 +29,14 @@ public class Motocicleta extends Vehiculo {
 
     // Getters y setters adicionales para atributos específicos de Motocicleta
     // ...
-    public String getTipo() {
+
+    public TipoMotocicleta getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    public void setTipo(TipoMotocicleta tipo) {
         this.tipo = tipo;
     }
+    
 
 }
