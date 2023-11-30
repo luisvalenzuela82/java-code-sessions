@@ -16,7 +16,7 @@ import org.javacodesessions.programacionorientadaobjetos5.principio2.good.WordRe
 public class AbiertoCerrado {
 
     /*
-    Principio de Abierto/Cerrado (Open/Closed Principle): 
+    O - Principio de Abierto/Cerrado (Open/Closed Principle): 
     Este principio establece que las entidades de software 
     (como clases, módulos y funciones) deben estar abiertas para la extensión,
     pero cerradas para la modificación. 
