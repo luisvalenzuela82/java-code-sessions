@@ -15,6 +15,6 @@ public class GoodIdea {
         gorrion.volar(); // Funciona correctamente
 
         AveNoVoladora pinguino = new Pinguino();
-        // pinguino.volar(); // Este código ni siquiera compilaría, ya que Pinguino no tiene el método volar
+        //pinguino.volar(); // Este código ni siquiera compilaría, ya que Pinguino no tiene el método volar
     }
 }

@@ -11,6 +11,6 @@ package org.javacodesessions.programacionorientadaobjetos5.principio3.good;
 public class AveVoladora extends Ave {
 
     public void volar() {
-        System.out.println("Esta esta volando");
+        System.out.println("Esta ave esta volando");
     }
 }

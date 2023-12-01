@@ -11,7 +11,7 @@ package org.javacodesessions.programacionorientadaobjetos5.principio3.bad;
 public class BadIdea {
 
     public static void main(String[] args) {
-        Ave ave = new Ave();
+        Ave ave = new Gorrion();
         ave.volar(); // Funciona correctamente
 
         Ave pinguino = new Pinguino();
