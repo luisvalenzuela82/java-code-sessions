@@ -9,18 +9,18 @@ package org.javacodesessions.factorymethod;
  * @author Luis Valenzuela
  */
 public class FactoryMethod {
-
+ 
     public static void main(String[] args) {
-        System.out.println("Factory Method");
+        System.out.println("Factory Method!");
         /*
-        Patrón creacional que proporciona una interfaz para crear objetos en una 
-        superclase, pero permite que las subclases alteren el tipo de objetos que se 
-        crearán.
-        
+        El patrón de diseño Factory Method es un patrón de diseño creacional que 
+        proporciona una interfaz para crear objetos en una superclase, 
+        pero permite que las subclases alteren el tipo de objetos que se crearán.
+
         Imagínalo como si fuera una fábrica real: la "fábrica" (método de fábrica) 
         es una parte del programa que se encarga de la creación de objetos. 
-        En lugar de llamar a un constructor directamente, le pides a la fábrica que 
-        te cree un objeto.
+        En lugar de llamar a un constructor directamente, le pides a la fábrica 
+        que te cree un objeto.
         */
         
         /*
@@ -29,8 +29,8 @@ public class FactoryMethod {
         Cuando el tipo exacto de objeto no se conoce de antemano.
         Encapsular la lógica de creación.
         Promover la extensibilidad.
-        Separar la creación de objetos de su uso. 
-        
+        Separar la creación de objetos de su uso.
+
         Errores Comunes
         Sobrecargar de responsabilidades a la fábrica.
         Uso innecesario en situaciones simples.

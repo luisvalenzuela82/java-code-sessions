@@ -8,9 +8,10 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public class FabricaBombarderoEspacial extends FabricaNaveEspacial {
-    @Override
-    public NaveEspacial crearNave() {
-        return new BombarderoEspacial();
+public class EstacionGasolina {
+
+    public static void cargarCombustible(Auto auto, double cantidad) {
+        auto.cargarCombustible(cantidad);
+        System.out.println("Cargado " + cantidad + " litros de combustible. Nivel actual: " + auto.getNivelCombustible());
     }
 }

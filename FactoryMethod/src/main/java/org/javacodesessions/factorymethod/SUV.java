@@ -8,10 +8,9 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public class NaveReconocimiento extends NaveEspacial {
-
+public class SUV extends Auto {
     @Override
-    public void disparar() {
-        System.out.println("Nave de Reconocimiento recolectando datos enemigos!");
+    public void encender() {
+        System.out.println("SUV encendido, ¡perfecto para aventuras!");
     }
 }

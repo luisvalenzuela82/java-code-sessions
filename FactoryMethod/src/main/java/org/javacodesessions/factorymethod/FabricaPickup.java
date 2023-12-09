@@ -8,10 +8,11 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public class BombarderoEspacial extends NaveEspacial {
+public class FabricaPickup extends FabricaAuto{
 
     @Override
-    public void disparar() {
-        System.out.println("Bombardero Espacial lanzando misiles!");
+    public Auto crearAuto() {
+        return new Pickup();
     }
+    
 }

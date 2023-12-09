@@ -8,7 +8,9 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public abstract class NaveEspacial {
-
-    public abstract void disparar();
+public class Sedan extends Auto {
+    @Override
+    public void encender() {
+        System.out.println("Sedan encendido y listo para conducir!");
+    }
 }

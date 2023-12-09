@@ -8,9 +8,9 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public class FabricaCazaEspacial extends FabricaNaveEspacial {
+public class FabricaSUV extends FabricaAuto {
     @Override
-    public NaveEspacial crearNave() {
-        return new CazaEspacial();
+    public Auto crearAuto() {
+        return new SUV();
     }
 }

@@ -8,6 +8,6 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public abstract class FabricaNaveEspacial {
-    public abstract NaveEspacial crearNave();
+public abstract class FabricaAuto {
+    public abstract Auto crearAuto();
 }

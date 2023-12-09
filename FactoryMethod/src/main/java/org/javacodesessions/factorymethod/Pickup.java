@@ -8,9 +8,11 @@ package org.javacodesessions.factorymethod;
  *
  * @author Luis Valenzuela
  */
-public class FabricaNaveReconocimiento extends FabricaNaveEspacial {
+public class Pickup extends Auto{
+
     @Override
-    public NaveEspacial crearNave() {
-        return new NaveReconocimiento();
+    public void encender() {
+        System.out.println("Pickup encendida, lista para el trabajo!");
     }
+    
 }
